@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 *,
 *::after,
 *::before {
@@ -5,6 +7,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
 
 :root {
   --color-bg: linear-gradient(to top, #010329, #000005);
@@ -342,3 +346,16 @@ body {
     transform: translate(-36vmin, 1.1vmin) rotateY(-80deg) rotateX(35deg);
   }
 }
+
+#typedtext{
+  color:white;
+  position: absolute;
+  left:5vh;
+  top: 5vh;
+  font-family: 'Baskervville';font-size: 22px;
+  font-size:2vw; 
+  letter-spacing: 0.25vh; 
+  font-weight: bold;
+  z-index: 999;
+}
+
